@@ -28,7 +28,6 @@ def test(a, b, c):
     print("The smaller root of " + str(a) + "x^2 + " + str(b) + "x + " + str(c) + " is:")
     print(str(smaller_root(a, b, c)))
 
-
 test(1, 2, 3)
 test(2, 0, -10)
 test(6, -3, 5)
